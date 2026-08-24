@@ -1,0 +1,513 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* -----------------------------HOME PAGE-------------------------------------------- */
+.home {
+    background-image: url("images/6037131625151270632.jpg");
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.home-content {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 110px;
+    font-size: 26px;
+    margin-top: 20px;
+
+
+}
+
+.home-content span {
+    font-weight: 800;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.home-content h2 {
+    font-family: "Berkshire Swash", serif;
+    margin-bottom: 20px;
+    font-weight:bold;
+    
+
+}
+
+.home-content p {
+    padding: 20px;
+    font-family: "Lancelot", serif;
+    font-size: 19px;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    
+}
+
+.home-content button {
+    padding: 10px;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-content .transp {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.home-content .tan {
+    background-color: tan;
+}
+
+.home-nav {
+    width: 100%;
+    background-color: transparent;
+}
+
+.home-nav .left {
+    width: 55%;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.home-nav .right {
+    display: inline-block;
+    width: 44%;
+}
+
+.left img {
+    width: 140px;
+    margin-left: 70px;
+    mix-blend-mode: screen;
+}
+
+.right ul {
+    list-style-type: none;
+}
+
+.right ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.right ul li {
+    display: inline-block;
+    margin: 0 10px
+}
+/* -----------------------------DESCRIPTION PAGE--------------------------------------*/
+.desc {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f4ed;
+    position: relative;
+}
+
+.photo {
+    display: inline-block;
+    width: 58%;    
+}
+
+.photo img {
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.parg {
+    display: inline-block;
+    width: 39%;
+    padding: 10px;
+    color: rgb(90, 87, 83);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.parg h1 {
+    padding: 20px;
+    
+}
+
+.parg p {
+    padding: 10px;
+    margin-left: 20px;
+    width: 350px
+}
+
+.parg ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.parg ul li{
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.parg ul .one {
+    list-style-image: url("images/6037131625151270634.jpg");
+}
+
+.parg ul .two {
+    list-style-image: url("images/6037131625151270633.jpg");
+}
+
+.parg ul .three {
+    list-style-image: url("images/6037131625151270637.jpg");
+}
+
+.parg ul .four {
+    list-style-image: url("images/6037131625151270627.jpg");
+}
+
+/* -------------DETAILS-------------- */
+
+.detail {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+}
+
+.detail .container {
+    background-color: #e9e0d2;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    left: 20px;
+    bottom: 20px;
+}
+
+.container .pic {
+    display: inline-block;
+    width: 49%;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.container .pic img {
+    width: 100%;
+}
+
+.container .text {
+    display: inline-block;
+    width: 49%;
+    color: rgb(90, 87, 83);
+    position: absolute;
+    top: 90px;
+   
+}
+
+.container .text h2 {
+    color: black;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.container .text p {
+    width: 500px;
+    padding: 20px;
+    margin-left: 30px;
+    
+}
+/* -------------------------CATEGORIES---------------------------------- */
+.cat {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f4ed;
+    text-align: center;
+}
+
+.cat .bake {
+    color: rgb(90, 87, 83);
+    padding: 30px;
+}
+
+.cat .bake h3 {
+    color: black;
+    padding: 10px;
+}
+
+.cat .bake p {
+    padding: 10px;
+}
+
+.cat .ex {
+    background-color: #f8f4ed;
+
+}
+
+.cat .one,
+.two,
+.three {
+    display: inline-block;
+    width: 33%;
+    margin-top: 25px;
+    padding: 10px;
+    
+}
+
+.cat img {
+    width: 100%
+}
+
+.cat .about {
+    padding: 20px;
+    color: rgb(90, 87, 83);
+}
+
+.cat h3 {
+    margin-bottom: 10px;
+    color: black;
+}
+/* -----------------------------------CONTACT-------------------------------- */
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #e4dfda;
+    position: relative;
+    margin-top: 50px;
+}
+
+.contact .more {
+    display: inline-block;
+    width:49%;
+    color:black;
+    position: absolute;
+    top: 70px;
+}
+
+.contact h4 {
+    color:#6c6b68;
+    padding:10px;
+    margin-left: 40px
+}
+
+.contact .more ul {
+    color:#6c6b68;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.more h3 {
+    margin-left: 20px;
+    padding : 50px 20px 20px 30px;
+    margin-left: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.more p {
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+.more ul li {
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.contact .loca {
+    display: inline-block;
+    width:49%;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+.contact iframe {
+    width: 500px;
+    height: 400px
+}
+
+/* --------------------------------FOOT------------------------------------ */
+.foot {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.above {
+    background-color: rgb(61, 54, 51);
+    padding: 20px;   
+}
+
+.above div{
+    display: inline-block;
+    width: 24%;
+    padding: 10px
+}
+
+.above div h4 {
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px
+}
+
+.above p {
+    color: #6c6b68;
+    padding: 10px
+}
+
+.above div ul {
+    color: #6c6b68;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.above div ul li{
+    padding: 11px;
+}
+
+.above .special {
+    padding: 10px;
+    width: 240px;
+}
+
+.below {
+    background-color:rgb(50, 48, 46); 
+    margin: 0px auto;
+    text-align: center;
+    padding: 56px;
+}
+
+.below p {
+    padding: 20px;
+    color: #6c6b68;
+}
+
+.below img {
+    mix-blend-mode: screen;
+    padding: 20px;
+}
+
+.above .map {
+    background-image: url("images/6037131625151270630.jpg");
+    mix-blend-mode: multiply;
+}
+
+.above hr {
+   border: none;
+   height: 1px;
+   background-color: #6c6b68;
+}
+
+@media screen and (max-width:1000px) {
+    /* HOME PAGE */
+    .home .home-content {
+        margin-top: 486px;
+    }
+
+    .home .home-content {
+        font-size: 50px;
+    }
+
+    .home .home-content p {
+        margin-left: 127px;
+        font-size: 27px
+    }
+
+    .home .home-content button {
+        padding: 15px;
+        margin: 10px
+    }
+    /* DESCRIPTION PAGE */
+
+    .desc .photo {
+        display: block;  
+        /* didn't work*/
+        width: 100%;
+        position: static;
+    }
+
+    .desc .parg {
+        display: block;  
+        /* didn't work */
+        width: 100%;
+        position: static;
+        font-size: 25px;
+        padding-left: 126px;
+    }
+
+    /* DETAILS PAGE */
+
+    .container .text {
+        position: static;
+        display: block;
+    }
+
+    .container .pic {
+        position: static;
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container .text {
+        font-size: 30px;
+    }
+
+    /* CATEGORIES PAGE */
+    .cat .bake {
+        padding: 61px;
+        font-size: 29px;
+    }
+
+    .cat .one, .two, .three {
+        display: block;
+        width: 100%
+    }
+
+    .cat .one, .two, .three img {
+        width: 51%;
+        margin: 0px auto;
+    }
+
+    .cat .three {
+        margin-top: 0px;
+    }
+
+    .cat .three .about {
+        width: 400px;
+        margin: 0px auto;
+    }
+
+    /* CONTACT PAGE */
+    .contact .more {
+        display: block;
+        width: 100%;
+        position: static;
+        font-size: 55px;
+    }
+    .contact .loca {
+        display: block;
+        position: static;
+        margin: 20px 95px
+    }
+
+    .above div {
+        display: block;
+        width: 100%
+    }
+
+    .below {
+        padding: 50px;
+    }
+
+    .below img {
+        padding: 245px;
+        width: 906px;
+    }
+
+    .below p {
+        padding: 46px;
+    }
+}
+
